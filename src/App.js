@@ -3,11 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <span className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <h3>Welcomme to <code>react</code></h3>
         </p>
         <a
           className="App-link"
@@ -15,10 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Here !
         </a>
       </header>
-    </div>
+    </span>
   );
 }
 
